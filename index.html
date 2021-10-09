@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,23 +9,22 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>Leah Davis Portfolio | Full Stack in Training</title>
 </head>
-<body>
-    
-    <!-- Header + Navigation -->
-    <header>
-        <h1>Leah Davis</h1>
-        <nav>
-            <a href="#About">About Me</a>
-            <a href="#Work">Work</a>
-            <a href="#Contact">Contact Me</a>
-            <a href="./assets/images/Resume_NoContactInfo_2020.jpg" target="_blank">Resume</a>
-        </nav>
-    </header>
 
-    <!-- Hero Image -->
-    <section class="hero-banner">
-        <div>
-            <h2>Cool subtitle here!</h2>
+<body>
+
+<!-- Hero Image + Navigation -->
+    <section class="hero">
+        <div id="nav">
+            <img id="logo" src="assets/images/Leah-Logo-transparent-L-white.png" alt="LD Logo">
+            <nav>
+                <a href="#About">About Me</a>
+                <a href="#Work">Work</a>
+                <a href="#ContactMe">Contact Me</a>
+                <a href="./assets/images/Resume_NoContactInfo_2020.jpg" target="_blank">Resume</a>
+            </nav>
+        </div>
+        <div id="subtitle">
+            <h2>Graphic Designer + Work-in-Progress Developer</h2>
         </div>
     </section>
 
@@ -33,19 +33,17 @@
         <section class="page-section" id="about">
             <h3><a name="About">About Me</a></h3>
             <div>
-            <p>
-                Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa
-                typewriter plaid direct trade small batch wayfarers bicycle rights cche craft beer gastropub
-                single-origin coffee Godard Carles you probably haven't heard of them irony pickled kitsch synth
-                sirarcha gentrify terally heirloom blog Truffaut paleo scenester.
-            </p>
-            <p>
-                Echo Park sriracha Pinterest vegan biodisel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal
-                dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx
-                Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schtz chambray organic tousled retro
-                fap squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably
-                haven't heard of them American Apparel next level pug ugh.
-            </p>
+                <p>
+                    Hiya! I'm Leah. Welcome to my corner of the internet.
+                </p>
+                <p>
+                    I received my BFA in Graphic Design at DePaul University and graduated in June of 2019. I enjoy all aspects of
+                    design and am constantly looking for new ways to make beautiful things - the newest thing for me is
+                    studying full stack development.
+                </p>
+                <p> When I'm not designing, you can find me loving on my pets at home, having a Harry Potter or Lord of
+                    the Rings marathon on my couch, or curled up with a good book.</p>
+                <p> Feel free to reach out below if you enjoy my work!</p>
             </div>
         </section>
 
@@ -54,22 +52,22 @@
             <h3><a name="Work">Work</a></h3>
             <div class="flex-container">
                 <!-- Feature First Child -->
-                <a href="https://github.com/luminescify/code_refactor" class="flex-item refactor" target="_blank">
+                <a href="https://github.com/faithelizagreen/take-a-hike" class="flex-item take-a-hike" target="_blank">
                     <div>
-                        <h4>Horiseon Code Refactor</h4>
-                        <span>HTML/CSS</span>
+                        <h4>Take A Hike</h4>
+                        <span>HTML/CSS/JavaScript</span>
                     </div>
                 </a>
-                <a href="templink" class="flex-item led" target="_blank">
+                <a href="https://github.com/luminescify/code-quiz" class="flex-item code-quiz" target="_blank">
                     <div>
-                        <h4>LED Wall</h4>
-                        <span>Node/IoT</span>
+                        <h4>Harry Potter Quiz Challenge</h4>
+                        <span>HTML/CSS/JavaScript</span>
                     </div>
                 </a>
-                <a href="templink" class="flex-item calculator" target="_blank">
+                <a href="https://github.com/luminescify/day-planner" class="flex-item day-planner" target="_blank">
                     <div>
-                        <h4>Calculator</h4>
-                        <span>React/JavaScript/CSS</span>
+                        <h4>Day Planner</h4>
+                        <span>HTML/CSS/JavaScript</span>
                     </div>
                 </a>
                 <a href="templink" class="flex-item puzzles" target="_blank">
@@ -88,21 +86,21 @@
         </section>
 
         <!-- Contact Me -->
-        <section class="page-section" id="contact">
-            <h3><a name="Contact">Contact Me</a></h3>
+        <section class="page-section">
+            <h3><a name="ContactMe">Contact Me</a></h3>
             <div>
-                <address>
+                <address id="contact">
+                    <!-- Email -->
+                    <a href="mailto: ileahd96@gmail.com" target="_blank">Email</a>
                     <!-- Phone -->
                     <a href="tel:407-741-3409" target="_blank">407-741-3409</a>
                     <!-- Email -->
-                    <a href="https://www.leahcdavis.com/" target="_blank">My Portfolio</a>
+                    <a href="https://www.linkedin.com/in/leahdavis96/" target="_blank">LinkedIn</a>
                     <!-- GitHub -->
                     <a href="https://github.com/luminescify" target="_blank">GitHub</a>
-                    <!-- Twitter -->
-                    <a href="https://twitter.com/Luminescify" target="_blank">Twitter</a>
                     <!-- Spotify -->
-                    <a href="https://open.spotify.com/user/1e635v3yei0s1bx9ig8walxz0?si=c9e3a3b980fd4d79"
-                        target="_blank">Spotify</a>
+                    <a href="https://www.leahcdavis.com"
+                        target="_blank">Design Portfolio</a>
                 </address>
             </div>
         </section>
@@ -110,9 +108,10 @@
         <!-- Footer -->
         <footer>
             <br>
-            <p>Made with ❤️ by Leah Davis</p>
+            <p>© 2021 Leah Davis</p>
         </footer>
     </main>
 
 </body>
+
 </html>
