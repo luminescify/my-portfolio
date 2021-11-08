@@ -176,11 +176,13 @@ section>h3>a {
 .take-a-hike {
     background-image: url("../images/hike_heroimage.jpg");
     background-position: center;
+
 }
 
 .code-quiz {
     background-image: url("../images/hp-background.jpg");
     background-position: center;
+    background-size: cover;
 }
 
 .day-planner {
@@ -188,12 +190,12 @@ section>h3>a {
     background-position: top;
 }
 
-.puzzles {
-    background-image: url("../images/puzzles.png");
+.reel-cinema {
+    background-image: url("../images/reel-cinema.png");
 }
 
-.run {
-    background-image: url("../images/run.png");
+.weather-dashboard {
+    background-image: url("../images/weather-dashboard.png");
 }
 
 /* Footer */
